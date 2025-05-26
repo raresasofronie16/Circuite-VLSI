@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CVLSI/lab1/project_1/project_1.srcs/sources_1/imports/hdl/demux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module demux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CVLSI/lab1/project_1/project_1.srcs/sources_1/imports/hdl/fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CVLSI/lab1/project_1/project_1.srcs/sources_1/imports/hdl/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CVLSI/lab1/project_1/project_1.srcs/sources_1/imports/hdl/router.v" into library xil_defaultlib
+ERROR: [VRFC 10-3195] cannot open include file '../../hdl/demux.v' [D:/CVLSI/lab1/project_1/project_1.srcs/sources_1/imports/hdl/router.v:1]
+ERROR: [VRFC 10-3195] cannot open include file '../../hdl/fifo.v' [D:/CVLSI/lab1/project_1/project_1.srcs/sources_1/imports/hdl/router.v:2]
+ERROR: [VRFC 10-3195] cannot open include file '../../hdl/memory.v' [D:/CVLSI/lab1/project_1/project_1.srcs/sources_1/imports/hdl/router.v:3]
+INFO: [VRFC 10-311] analyzing module router
+ERROR: [VRFC 10-8530] module 'router' is ignored due to previous errors [D:/CVLSI/lab1/project_1/project_1.srcs/sources_1/imports/hdl/router.v:5]

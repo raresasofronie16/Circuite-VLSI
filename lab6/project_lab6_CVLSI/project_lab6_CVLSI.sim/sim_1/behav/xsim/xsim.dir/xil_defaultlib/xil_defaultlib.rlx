@@ -1,0 +1,11 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+D:/CVLSI/lab6/project_lab6_CVLSI/project_lab6_CVLSI.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,uvm,,,,,,
+D:/CVLSI/lab6/project_lab6_CVLSI/project_lab6_CVLSI.srcs/sim_1/imports/sim/svbt_interface.sv,1744296259,systemVerilog,,D:/CVLSI/lab6/project_lab6_CVLSI/project_lab6_CVLSI.srcs/sim_1/imports/sim/top.sv,,input_intf;output_intf;reset_intf,,uvm,,,,,,
+D:/CVLSI/lab6/project_lab6_CVLSI/project_lab6_CVLSI.srcs/sim_1/imports/sim/top.sv,1746782801,systemVerilog,,,,top,,uvm,,,,,,
+D:/CVLSI/lab6/project_lab6_CVLSI/project_lab6_CVLSI.srcs/sources_1/imports/hdl/demux.v,1709214716,verilog,,D:/CVLSI/lab6/project_lab6_CVLSI/project_lab6_CVLSI.srcs/sources_1/imports/hdl/fifo.v,,demux,,uvm,,,,,,
+D:/CVLSI/lab6/project_lab6_CVLSI/project_lab6_CVLSI.srcs/sources_1/imports/hdl/fifo.v,1709214716,verilog,,D:/CVLSI/lab6/project_lab6_CVLSI/project_lab6_CVLSI.srcs/sources_1/imports/hdl/memory.v,,fifo,,uvm,,,,,,
+D:/CVLSI/lab6/project_lab6_CVLSI/project_lab6_CVLSI.srcs/sources_1/imports/hdl/memory.v,1709214716,verilog,,D:/CVLSI/lab6/project_lab6_CVLSI/project_lab6_CVLSI.srcs/sources_1/imports/hdl/router.v,,memory,,uvm,,,,,,
+D:/CVLSI/lab6/project_lab6_CVLSI/project_lab6_CVLSI.srcs/sources_1/imports/hdl/router.v,1744219195,verilog,,,D:/CVLSI/lab6/project_lab6_CVLSI/project_lab6_CVLSI.srcs/sources_1/imports/hdl/demux.v;D:/CVLSI/lab6/project_lab6_CVLSI/project_lab6_CVLSI.srcs/sources_1/imports/hdl/fifo.v;D:/CVLSI/lab6/project_lab6_CVLSI/project_lab6_CVLSI.srcs/sources_1/imports/hdl/memory.v,router,,uvm,,,,,,

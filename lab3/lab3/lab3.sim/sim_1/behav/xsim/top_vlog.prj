@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab3.srcs/sources_1/imports/hdl/demux.v" \
+"../../../../lab3.srcs/sources_1/imports/hdl/fifo.v" \
+"../../../../lab3.srcs/sources_1/imports/hdl/memory.v" \
+"../../../../lab3.srcs/sources_1/imports/hdl/router.v" \
+
+sv xil_defaultlib  \
+"../../../../lab3.srcs/sources_1/imports/lab3/env/svbt_interface.sv" \
+"../../../../lab3.srcs/sources_1/imports/lab3/env/top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

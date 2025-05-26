@@ -1,0 +1,33 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/AMD/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot top_behav xil_defaultlib.top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3597] non-void function 'display' called as a task without void casting [../../../../snapshot_laborator4.srcs/sim_1/imports/work_v3/svbt_data_in_generator.sv:46]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/CVLSI/lab5/snapshot_laborator5/snapshot_laborator4/snapshot_laborator4.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/CVLSI/lab5/snapshot_laborator5/snapshot_laborator4/snapshot_laborator4.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_svbt_base_unit_sv_21984709...
+Compiling package std.std
+Compiling module xil_defaultlib.drv_cb
+Compiling module xil_defaultlib.rcv_cb
+Compiling module xil_defaultlib.reset_intf_default
+Compiling module xil_defaultlib.drv_cb
+Compiling module xil_defaultlib.rcv_cb
+Compiling module xil_defaultlib.input_intf_default
+Compiling module xil_defaultlib.drv_cb
+Compiling module xil_defaultlib.rcv_cb
+Compiling module xil_defaultlib.output_intf_default
+Compiling module xil_defaultlib.demux
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.fifo
+Compiling module xil_defaultlib.router
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_behav

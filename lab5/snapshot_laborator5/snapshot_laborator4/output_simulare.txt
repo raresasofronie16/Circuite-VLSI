@@ -1,0 +1,21 @@
+# run 3000ns
+Begin TOP
+Begin reset
+End reset
+[65000] DATA_IN_BFM Starting to drive packets...
+[65000] DATA_IN_GENERATOR Starting to generate 15 packets...
+[65000] DATA IN GEN : packet ID: 0 address is h'0, data length is 5, payload is  h'a5 h'21 h'49 h'ba h'c6,      parity is a5, delay is 8
+[65000] DATA IN GEN : packet ID: 1 address is h'1, data length is 5, payload is  h'93 h'd7 h'f3 h'f5 h'cf,      parity is 98, delay is 7
+[65000] DATA IN GEN : packet ID: 2 address is h'2, data length is 3, payload is  h'd2 h'b0 h'1d,      parity is 71, delay is 7
+[65000] DATA IN GEN : packet ID: 3 address is h'2, data length is 3, payload is  h'1 h'a7 h'20,      parity is 88, delay is 6
+[65000] DATA IN GEN : packet ID: 4 address is h'1, data length is 3, payload is  h'b3 h'fa h'ad,      parity is e9, delay is 9
+[65000] DATA IN GEN : packet ID: 5 address is h'2, data length is 2, payload is  h'6f h'de,      parity is bb, delay is 1
+[65000] DATA IN GEN : packet ID: 6 address is h'1, data length is 2, payload is  h'70 h'e8,      parity is 91, delay is 9
+[65000] DATA IN GEN : packet ID: 7 address is h'1, data length is 4, payload is  h'b5 h'c6 h'7d h'ba,      parity is a5, delay is 9
+[65000] DATA IN GEN : packet ID: 8 address is h'1, data length is 5, payload is  h'6b h'8 h'd7 h'3f h'99,      parity is 7, delay is 3
+[65000] DATA IN GEN : packet ID: 9 address is h'2, data length is 4, payload is  h'ee h'a9 h'3d h'5f,      parity is 37, delay is 4
+[65000] DATA IN GEN : packet ID: 10 address is h'2, data length is 4, payload is  h'1f h'd1 h'e8 h'b3,      parity is 87, delay is 5
+[65000] DATA IN GEN : packet ID: 11 address is h'2, data length is 4, payload is  h'86 h'f9 h'b8 h'89,      parity is 5c, delay is 4
+[65000] DATA IN GEN : packet ID: 12 address is h'1, data length is 5, payload is  h'66 h'40 h'1d h'52 h'bc,      parity is c0, delay is 9
+[65000] DATA IN GEN : packet ID: 13 address is h'0, data length is 3, payload is  h'6b h'af h'31,      parity is f9, delay is 2
+[65000] DATA IN GEN : packet ID: 14 address is h'2, data length is 3, payload is  h'0 h'57 h'a6,      parity is ff, delay is 3

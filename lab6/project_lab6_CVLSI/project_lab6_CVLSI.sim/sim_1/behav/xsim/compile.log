@@ -1,0 +1,3 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CVLSI/lab6/project_lab6_CVLSI/project_lab6_CVLSI.srcs/sim_1/imports/sim/svbt_interface.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CVLSI/lab6/project_lab6_CVLSI/project_lab6_CVLSI.srcs/sim_1/imports/sim/top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top

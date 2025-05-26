@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../snapshot_laborator4.srcs/sources_1/imports/snapshot_lab_4/hdl" --include "../../../../snapshot_laborator4.srcs/sim_1/imports/work_v3" \
+"../../../../snapshot_laborator4.srcs/sources_1/imports/snapshot_lab_4/work_v3/hdl/router.v" \
+
+sv xil_defaultlib  --include "../../../../snapshot_laborator4.srcs/sources_1/imports/snapshot_lab_4/hdl" --include "../../../../snapshot_laborator4.srcs/sim_1/imports/work_v3" \
+"../../../../snapshot_laborator4.srcs/sim_1/imports/work_v3/svbt_base_unit.sv" \
+"../../../../snapshot_laborator4.srcs/sim_1/imports/work_v3/svbt_interface.sv" \
+"../../../../snapshot_laborator4.srcs/sim_1/imports/work_v3/svbt_packet.sv" \
+"../../../../snapshot_laborator4.srcs/sim_1/imports/work_v3/svbt_test_basic_addr_0.sv" \
+"../../../../snapshot_laborator4.srcs/sim_1/imports/work_v3/top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab7.srcs/sources_1/imports/hdl/demux.v" \
+"../../../../lab7.srcs/sources_1/imports/hdl/fifo.v" \
+"../../../../lab7.srcs/sources_1/imports/hdl/memory.v" \
+"../../../../lab7.srcs/sources_1/imports/hdl/router.v" \
+
+sv xil_defaultlib  \
+"../../../../lab7.srcs/sim_1/imports/sim/svbt_base_unit.sv" \
+"../../../../lab7.srcs/sim_1/imports/sim/svbt_channel_out_bfm.sv" \
+"../../../../lab7.srcs/sim_1/imports/sim/svbt_environment.sv" \
+"../../../../lab7.srcs/sim_1/imports/sim/svbt_interface.sv" \
+"../../../../lab7.srcs/sim_1/imports/sim/svbt_packet.sv" \
+"../../../../lab7.srcs/sim_1/imports/sim/svbt_test_basic_addr_0.sv" \
+"../../../../lab7.srcs/sim_1/imports/sim/svbt_test_stress_back_pressure.sv" \
+"../../../../lab7.srcs/sim_1/imports/sim/top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

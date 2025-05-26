@@ -1,0 +1,9 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/AMD/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot top_behav xil_defaultlib.top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+ERROR: [XSIM 43-3980] File "D:/CVLSI/lab6/project_lab6_CVLSI/project_lab6_CVLSI.srcs/sim_1/imports/sim/svbt_interface.sv" Line 73 : The SystemVerilog feature "Sequence call/access in non-assertion region" is not supported yet for simulation.

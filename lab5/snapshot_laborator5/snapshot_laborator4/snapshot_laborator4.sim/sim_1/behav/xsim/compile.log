@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CVLSI/lab5/snapshot_laborator5/snapshot_laborator4/snapshot_laborator4.srcs/sim_1/imports/work_v3/svbt_base_unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CVLSI/lab5/snapshot_laborator5/snapshot_laborator4/snapshot_laborator4.srcs/sim_1/imports/work_v3/svbt_interface.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CVLSI/lab5/snapshot_laborator5/snapshot_laborator4/snapshot_laborator4.srcs/sim_1/imports/work_v3/svbt_packet.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CVLSI/lab5/snapshot_laborator5/snapshot_laborator4/snapshot_laborator4.srcs/sim_1/imports/work_v3/svbt_test_basic_addr_0.sv" into library xil_defaultlib
+WARNING: [VRFC 10-5025] system function call '$psprintf' is not IEEE standard [../../../../snapshot_laborator4.srcs/sim_1/imports/work_v3/svbt_channel_out_monitor.sv:52]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CVLSI/lab5/snapshot_laborator5/snapshot_laborator4/snapshot_laborator4.srcs/sim_1/imports/work_v3/top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top

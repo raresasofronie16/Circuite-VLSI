@@ -1,0 +1,12 @@
+Welcome to Incisive Enterprise Manager (12.20.001-p)  -  Linked on Wed Nov 21 15:11:26 2012
+
+
+
+Reading EManager configuration...
+# Opening a new VT Window, Please Wait...
+
+# Trying to communicate with GUI client (timeout in 60 seconds)
+# Trying to communicate with GUI client (timeout in 40 seconds)
+# Trying to communicate with GUI client (timeout in 20 seconds)
+   *** Error: Communication Timedout - Failed communicating with GUI client
+

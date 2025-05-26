@@ -1,0 +1,30 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_2.srcs/sources_1/imports/lab5/demux.v" \
+"../../../../project_2.srcs/sources_1/imports/lab5/fifo.v" \
+"../../../../project_2.srcs/sources_1/imports/lab5/memory.v" \
+
+sv xil_defaultlib  \
+"../../../../project_2.srcs/sources_1/imports/lab5/env/svbt_base_unit.sv" \
+"../../../../project_2.srcs/sources_1/imports/lab5/env/svbt_environment.sv" \
+"../../../../project_2.srcs/sources_1/imports/lab5/env/svbt_interface.sv" \
+"../../../../project_2.srcs/sources_1/imports/lab5/env/svbt_packet.sv" \
+"../../../../project_2.srcs/sources_1/imports/lab5/env/svbt_data_in_monitor.sv" \
+"../../../../project_2.srcs/sources_1/imports/lab5/env/svbt_channel_out_monitor.sv" \
+"../../../../project_2.srcs/sources_1/imports/lab5/env/svbt_reset_bfm.sv" \
+"../../../../project_2.srcs/sources_1/imports/lab5/env/svbt_channel_out_generator.sv" \
+"../../../../project_2.srcs/sources_1/imports/lab5/env/svbt_data_in_generator.sv" \
+"../../../../project_2.srcs/sources_1/imports/lab5/env/svbt_channel_out_bfm.sv" \
+"../../../../project_2.srcs/sources_1/imports/lab5/env/svbt_data_in_bfm.sv" \
+"../../../../project_2.srcs/sources_1/imports/lab5/env/svbt_include.sv" \
+"../../../../project_2.srcs/sources_1/imports/lab5/tests/svbt_test_basic_addr_0.sv" \
+"../../../../project_2.srcs/sources_1/imports/lab5/env/top.sv" \
+
+verilog xil_defaultlib  \
+"../../../../project_2.srcs/sources_1/imports/lab5/router.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
